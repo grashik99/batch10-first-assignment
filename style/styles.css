@@ -45,6 +45,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 75px;
 }
 .hero-image{
     width: 240px;
@@ -85,3 +86,64 @@ body{
     border-radius: 50px;
 }
 /* Hero section end  */
+/* start development */
+.development{
+    width: 1140px;
+    height: 1390px;
+    margin: 0 auto;
+}
+.dev-one{
+    padding: 0px 47px;
+    text-align: center;
+}
+.dev-one > h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.dev-one > p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.dev-two{
+    width: 946px;
+    height: 292.5px;
+    padding: 48px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.two-writing > h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.two-writing > p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.l-btn{
+    padding: 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+
+}
+.l-btn > a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+/* Dev section end  */
