@@ -243,3 +243,79 @@ body{
 .bgcoler-js{
     background-color: #eef3e0;
 }
+/*  */
+/*  */
+.contuct{
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 64px;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: overlay;
+
+}
+.c-t > h3{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.c-t > p{
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.input--{
+    height: 40px;
+    width: 300px;
+    border-radius: 3px;
+    border: none;
+    margin-right: 10px;
+}
+.input---{
+    height: 40px;
+    width: 70px;
+    border-radius: 3px;
+    border: none;
+}
+.input--- > a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    text-decoration: none;
+}
+/* Start footer */
+footer{
+    width: 1140px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+footer > h5{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+.logo-s{
+    padding: 5px;
+}
+.logo-b{
+    display: flex;
+}
