@@ -179,3 +179,67 @@ body{
     display: block;
 }
 /* inspiration end */
+/* target section start  */
+.target{
+    width: 1140px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 110px;
+}
+.title{
+    width: 852px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.title > h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.title > p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.t-list{
+    display: flex;
+}
+.t-data{
+    width: 364px;
+    height: 299px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.t-data > h4{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.t-data > p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.t-data > button{
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+}
+.bgcoler-html{
+    background-color: #FFF6F4;
+}
+.bgcoler-css{
+    background-color: #F2F6FE;
+}
+.bgcoler-js{
+    background-color: #eef3e0;
+}
